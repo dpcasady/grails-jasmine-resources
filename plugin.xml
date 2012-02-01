@@ -1,0 +1,28 @@
+<plugin name='jasmine-resources' version='0.1.0' grailsVersion='1.3.7 &gt; *'>
+  <author>Vladimír Oraný</author>
+  <authorEmail>vladimir.orany@appsatori.eu</authorEmail>
+  <title>Jasmine Resources Plugin</title>
+  <description>Jasmine resources plugin bundled with 1.1.0 release.
+</description>
+  <documentation>http://grails.org/plugin/jasmine-resources</documentation>
+  <type>JasmineResourcesGrailsPlugin</type>
+  <resources>
+    <resource>JasmineResourcesPluginResources</resource>
+    <resource>JasmineResourcesUrlMappings</resource>
+    <resource>TestResources</resource>
+    <resource>jasmine.resources.JasmineController</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://plugins.grails.org' />
+    <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='grailsCore' url='http://svn.codehaus.org/grails/trunk/grails-plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies />
+  <plugins />
+  <runtimePluginRequirements>
+    <plugin name='resources' version='1.0 &gt; *' />
+  </runtimePluginRequirements>
+  <behavior />
+</plugin>
