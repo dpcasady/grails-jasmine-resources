@@ -8,9 +8,9 @@ standalone manual testing. Just navigate to `<app>/jasmine/<module-name>` to see
 
 If jQuery plugin is installed it automatically adds [jQuery Jasmine](https://github.com/velesin/jasmine-jquery) script.
 
-The plugin is not yet available on the grails repository, install it by running following command
+To install the plugin just type
 
 ```
-  grails install-plugin http://cloud.github.com/downloads/musketyr/grails-jasmine-resources/grails-jasmine-resources-0.1.0.zip
+  grails install-plugin jasmine-resources
 ```
 
