@@ -1,9 +1,9 @@
 modules = {
   'test' {
     dependsOn 'jasmine'
-    resource url: 'plugins/js/Player.js', disposition: 'head'
-    resource url: 'plugins/js/Song.js', disposition: 'head'
-    resource url: 'plugins/js/SpecHelper.js', disposition: 'head'
-    resource url: 'plugins/js/PlayerSpec.js', disposition: 'head'
+    resource url: 'js/src/Player.js', disposition: 'head'
+    resource url: 'js/src/Song.js', disposition: 'head'
+    resource url: 'js/spec/SpecHelper.js', disposition: 'head'
+    resource url: 'js/spec/PlayerSpec.js', disposition: 'head'
   }
 }

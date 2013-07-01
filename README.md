@@ -16,18 +16,16 @@ compile ":jasmine-resources:0.1.1"
 To add Jasmine specs to your grails project:
 
 * Install the plugin.
-* Reference your Jasmine spec files in your ApplicationResources file, or wherever you are defining your resources. This example assumes spec files are located within `web-app/plugins/js/`.
+* Reference your Jasmine spec files in your ApplicationResources file, or wherever you are defining your resources. This example assumes spec files are located within `web-app/js/spec/`, and source files in `web-app/js/src/`.
 
 ```groovy
 modules = {
-
 	'test' {
 		dependsOn 'jasmine'
-		resource url: 'plugins/js/Player.js', disposition: 'head'
-		resource url: 'plugins/js/Song.js', disposition: 'head'
-		resource url: 'plugins/js/SpecHelper.js', disposition: 'head'
-		resource url: 'plugins/js/PlayerSpec.js', disposition: 'head'
+		resource url: 'js/src/Player.js', disposition: 'head'
+		resource url: 'js/src/Song.js', disposition: 'head'
+		resource url: 'js/spec/SpecHelper.js', disposition: 'head'
+		resource url: 'js/spec/PlayerSpec.js', disposition: 'head'
 	}
-
 }
 ```
