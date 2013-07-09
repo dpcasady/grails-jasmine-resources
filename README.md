@@ -20,7 +20,7 @@ To add Jasmine specs to your grails project:
 
 ```groovy
 modules = {
-	'test' {
+	'example' {
 		dependsOn 'jasmine'
 		resource url: 'js/src/Player.js', disposition: 'head'
 		resource url: 'js/src/Song.js', disposition: 'head'
@@ -29,3 +29,5 @@ modules = {
 	}
 }
 ```
+
+The example module above is included with the plugin and is viewable at `<app>/jasmine/example`.
