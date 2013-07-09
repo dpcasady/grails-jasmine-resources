@@ -1,5 +1,5 @@
 modules = {
-  'test' {
+  'example' {
     dependsOn 'jasmine'
     resource url: 'js/src/Player.js', disposition: 'head'
     resource url: 'js/src/Song.js', disposition: 'head'
