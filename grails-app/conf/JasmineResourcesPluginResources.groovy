@@ -13,5 +13,5 @@ modules = {
 			resource id: 'jasmine-jquery', url: [plugin: 'jasmine-resources', dir:'js/jasmine', file: 'jasmine-jquery.js'], disposition: 'head'
 		}
 		resource id: 'jasmine-reporter', url: [plugin: 'jasmine-resources', dir:'js/jasmine', file: 'jasmine-reporter.js'], disposition: 'head'
-    }
+	}
 }
