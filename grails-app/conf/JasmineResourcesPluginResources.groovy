@@ -10,7 +10,7 @@ modules = {
 		resource id: 'jasmine-html', url: [plugin: 'jasmine-resources', dir:'js/jasmine', file: 'jasmine-html.js'], disposition: 'head'
 		if (jqueryPlugin) {
 			dependsOn 'jquery'
-			resource id: 'jasmine-jquery', url: [plugin: 'jasmine-resources', dir:'js/jasmine', file: 'jasmine-jquery-1.5.2.js'], disposition: 'head'
+			resource id: 'jasmine-jquery', url: [plugin: 'jasmine-resources', dir:'js/jasmine', file: 'jasmine-jquery.js'], disposition: 'head'
 		}
 		resource id: 'jasmine-reporter', url: [plugin: 'jasmine-resources', dir:'js/jasmine', file: 'jasmine-reporter.js'], disposition: 'head'
     }
