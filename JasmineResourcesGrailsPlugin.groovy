@@ -1,12 +1,12 @@
 class JasmineResourcesGrailsPlugin {
-	def version = "0.1.0"
+	def version = "0.1.1"
 	def grailsVersion = "2.0 > *"
 	def pluginExcludes = [
 		"grails-app/conf/TestResources.groovy",
 	]
 
 	def title = "Jasmine Resources Plugin"
-	def description = 'Jasmine resources plugin bundled with 1.1.0 release.'
+	def description = 'Jasmine resources plugin'
 	def documentation = "http://grails.org/plugin/jasmine-resources"
 
 	def license = "APACHE"
