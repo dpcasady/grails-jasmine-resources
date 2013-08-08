@@ -2,9 +2,11 @@
 
 This plugin adds [Jasmine](http://pivotal.github.com/jasmine/) resources to your Grails Application.
 
-It uses the [Resources Plugin](http://grails.org/plugin/resources) to handle resources gracefully. All you need to do is create a resource module with your Jasmine specs that depend on the 'jasmine' module. There is also controller for standalone manual testing. Just navigate to `<app>/jasmine/<module-name>` to see the results.
+> Jasmine is a behavior-driven development framework for testing JavaScript code. It does not depend on any other JavaScript frameworks. It does not require a DOM. And it has a clean, obvious syntax so that you can easily write tests.
 
-If the Grails jQuery plugin is installed, it automatically adds the [jQuery Jasmine](https://github.com/velesin/jasmine-jquery) script to the spec runner.
+It uses the [Resources Plugin](http://grails.org/plugin/resources) to handle resources gracefully. All you need to do is create a resource module with your Jasmine specs that depend on the 'jasmine' module. There is also a controller for standalone manual testing. Just navigate to `<app>/jasmine/<module-name>` to access the spec runner.
+
+If the Grails jQuery plugin is installed, the [Jasmine-jQuery](https://github.com/velesin/jasmine-jquery) script will be automatically included in the spec runner.
 
 ## Usage
 Add the plugin to the `plugins` block of your `BuildConfig.groovy`:
