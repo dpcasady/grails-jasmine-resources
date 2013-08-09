@@ -5,3 +5,6 @@
 *.log
 web-app/WEB-INF
 plugin.xml
+.settings
+stacktrace.log
+.DS_Store
