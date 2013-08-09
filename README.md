@@ -12,7 +12,7 @@ If the Grails jQuery plugin is installed, the [Jasmine-jQuery](https://github.co
 Add the plugin to the `plugins` block of your `BuildConfig.groovy`:
 
 ```groovy
-compile ":jasmine-resources:0.1.1"
+compile ":jasmine-resources:0.1.2"
 ```
 
 To add Jasmine specs to your grails project:
