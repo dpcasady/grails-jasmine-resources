@@ -1,5 +1,7 @@
 # Grails Jasmine Resources Plugin
 
+*This plugin is no longer maintained as the [asset-pipeline](http://grails.org/plugin/asset-pipeline) plugin is now the standard in grails applications.*
+
 This plugin adds [Jasmine](http://pivotal.github.com/jasmine/) resources to your Grails Application.
 
 > Jasmine is a behavior-driven development framework for testing JavaScript code. It does not depend on any other JavaScript frameworks. It does not require a DOM. And it has a clean, obvious syntax so that you can easily write tests.
@@ -22,13 +24,13 @@ To add Jasmine specs to your grails project:
 
 ```groovy
 modules = {
-	'example' {
-		dependsOn 'jasmine'
-		resource url: 'js/src/Player.js', disposition: 'head'
-		resource url: 'js/src/Song.js', disposition: 'head'
-		resource url: 'js/spec/SpecHelper.js', disposition: 'head'
-		resource url: 'js/spec/PlayerSpec.js', disposition: 'head'
-	}
+    'example' {
+        dependsOn 'jasmine'
+        resource url: 'js/src/Player.js', disposition: 'head'
+        resource url: 'js/src/Song.js', disposition: 'head'
+        resource url: 'js/spec/SpecHelper.js', disposition: 'head'
+        resource url: 'js/spec/PlayerSpec.js', disposition: 'head'
+    }
 }
 ```
 
